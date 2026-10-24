@@ -58,7 +58,7 @@ const SignUp = () => {
                 [styles.invalid]: touched[name] && errors[name],
               });
             return (
-              <Form>
+              <Form className={styles.form}>
                 <div className={styles.twoFields}>
                   <div className={styles.oneField}>
                     <Field
@@ -149,7 +149,9 @@ const SignUp = () => {
                   </div>
                 </div>
 
-                <button type="submit">Create Account</button>
+                <button type="submit" className={styles.submit}>
+                  Create Account
+                </button>
               </Form>
             );
           }}
