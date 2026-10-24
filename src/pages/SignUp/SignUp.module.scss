@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.twoFields {
+  display: flex;
+  flex-direction: row;
+  max-width: 910px;
+  flex-wrap: wrap;
+}
+
+.oneField {
+  display: flex;
+  flex-direction: column;
+  min-width: 450px;
+}
