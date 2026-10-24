@@ -2,7 +2,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
 import styles from "./SignUp.module.scss";
 import classNames from "classnames";
-
+import { Link } from "react-router-dom";
 const nameParameters = yup.string().trim().min(2).max(32).required();
 
 const SIGNUP_SCHEMA = yup.object({
@@ -36,9 +36,9 @@ const SignUp = () => {
     <div className={styles.page}>
       <header className={styles.header}>
         <span className={styles.logo}>squadhelp</span>
-        {/* <Link to="/login" className={styles.loginBtn}>
+        <Link to="/login" className={styles.loginBtn}>
           Login
-        </Link> */}
+        </Link>
       </header>
 
       <div className={styles.container}>
