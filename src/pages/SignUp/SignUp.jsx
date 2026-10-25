@@ -36,7 +36,7 @@ const SignUp = () => {
     <div className={styles.page}>
       <header className={styles.header}>
         <span className={styles.logo}>squadhelp</span>
-        <Link to="/login" className={styles.loginBtn}>
+        <Link to="/" className={styles.loginBtn}>
           Login
         </Link>
       </header>

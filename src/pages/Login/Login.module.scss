@@ -16,23 +16,23 @@ $color-lightblue: #1ed3d0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
-  .logo {
-    font-size: 26px;
-    font-weight: bold;
-  }
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
 
-  .signupBtn {
-    border: 1px solid #fff;
-    border-radius: 4px;
-    padding: 8px 24px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
+.signupBtn {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 24px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
 
-    &:hover {
-      background-color: rgba(255, 255, 255, 0.15);
-    }
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
   }
 }
 
@@ -45,13 +45,13 @@ $color-lightblue: #1ed3d0;
   text-align: center;
   width: 100%;
   box-sizing: border-box;
+}
 
-  .title {
-    font-size: 32px;
-    font-weight: 700;
-    margin: 0 0 36px 0;
-    letter-spacing: 1px;
-  }
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 36px 0;
+  letter-spacing: 1px;
 }
 
 .form {
